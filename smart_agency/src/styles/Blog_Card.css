@@ -1,0 +1,293 @@
+.content_blogcard{
+    background-color: rgb(255, 255, 255,0.4);
+    border-radius: 30px;
+    z-index: 1;
+    margin: 2%;
+}
+
+.linker{
+    text-decoration: none;
+    color: #3F4967;
+    font-weight: 600;
+}
+
+.all_blogcard{
+    width: 90%;
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.all_blogcard h{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 20%;
+}
+
+.text_blogcard{
+    font-size: 20px;    
+    height: 10%;
+}
+
+.button_blogcard{
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.button_blogcard p{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.all_blogcard img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 2200px) {
+    .all_blogcard h{
+        font-size: 26px;
+        height: 15%;
+    }
+
+    .all_blogcard{
+        height: 650px;
+    }
+
+    .text_blogcard{
+        font-size: 18px;
+        height: 10%;
+    }
+}
+@media (max-width: 1800px) {
+    .all_blogcard h{
+        font-size: 22px;
+        height: 20%;
+    }
+
+    .all_blogcard{
+        height: 550px;
+    }
+
+    .text_blogcard{
+        font-size: 16px;
+        height: 10%;
+    }
+}
+@media (max-width: 1500px) {
+    .all_blogcard h{
+        font-size: 20px;
+        height: 15%;
+    }
+
+    .all_blogcard{
+        height: 500px;
+    }
+
+    .text_blogcard{
+        font-size: 14px;
+        height: 10%;
+    }
+}
+@media (max-width: 1300px) {
+    .all_blogcard h{
+        font-size: 18px;
+        height: 25%;
+    }
+
+    .button_blogcard{
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .all_blogcard{
+        height: 400px;
+    }
+
+    .text_blogcard{
+        font-size: 12px;
+        height: 15%;
+    }
+
+    .content_blogcard{
+        border-radius: 20px;
+    }
+
+    .button_blogcard p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1100px) {
+    .all_blogcard h{
+        font-size: 14px;
+        height: 20%;
+    }
+
+    .all_blogcard{
+        height: 320px;
+    }
+
+    .text_blogcard{
+        font-size: 10px;
+        height: 15%;
+    }
+
+    .button_blogcard p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 860px) {
+    .all_blogcard h{
+        font-size: 12px;
+        height: 20%;
+    }
+
+    .all_blogcard{
+        height: 320px;
+    }
+
+    .text_blogcard{
+        font-size: 9px;
+        height: 15%;
+    }
+
+    .button_blogcard p{
+        font-size: 14px;
+    }
+
+    .button_blogcard{
+        height: 30px;
+    }
+}
+@media (max-width: 670px) {
+    .all_blogcard h{
+        font-size: 12px;
+        height: 20%;
+    }
+
+    .all_blogcard{
+        height: 280px;
+    }
+
+    .button_blogcard{
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .content_blogcard{
+        border-radius: 15px;
+    }
+
+
+    .text_blogcard{
+        font-size: 8px;
+        height: 10%;
+    }
+
+    
+    .all_blogcard img{
+        border-radius: 10px;
+    }
+
+    .button_blogcard p{
+        font-size: 14px;
+    }
+
+    .button_blogcard{
+        height: 30px;
+    }
+}
+@media (max-width: 550px) {
+    .all_blogcard h{
+        font-size: 10px;
+        height: 20%;
+    }
+
+    .all_blogcard{
+        height: 250px;
+    }
+
+    .text_blogcard{
+        font-size: 7px;
+        height: 10%;
+    }
+
+    .button_blogcard p{
+        font-size: 12px;
+    }
+
+
+    .button_blogcard{
+        height: 30px;
+    }
+}
+@media (max-width: 420px) {
+    .all_blogcard h{
+        font-size: 8px;
+        height: 15%;
+    }
+
+    .all_blogcard{
+        height: 200px;
+    }
+
+    .button_blogcard{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .content_blogcard{
+        border-radius: 10px;
+    }
+
+    .text_blogcard{
+        font-size: 6px;
+        height: 15%;
+    }
+
+    .button_blogcard p{
+        font-size: 10px;
+    }
+
+
+    .button_blogcard{
+        height: 25px;
+    }
+}
+@media (max-width: 320px) {
+    .all_blogcard h{
+        font-size: 7px;
+        height: 30%;
+    }
+
+    .all_blogcard{
+        height: 160px;
+    }
+
+    
+
+    .text_blogcard{
+        font-size: 5px;
+        height: 20%;
+    }
+
+    .button_blogcard p{
+        font-size: 8px;
+    }
+
+
+    .button_blogcard{
+        height: 20px;
+    }
+}

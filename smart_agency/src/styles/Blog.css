@@ -1,0 +1,17 @@
+.bg_blog {
+    background: linear-gradient(to bottom right, #F58131, #6582A0);
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .content_blog{
+    width: 60%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    z-index: 1;
+    padding: 5%;
+  }
